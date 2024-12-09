@@ -28,8 +28,8 @@ body{
     border-bottom: 2px solid rgb(43, 223, 255);
 }
 .logo{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border: 2px solid rgb(43, 223, 255);
     border-radius: 50%;
     display: flex;
@@ -41,8 +41,8 @@ body{
 /* Logo styling */
 .logo img {
     border-radius: 50%;
-    height:60px;
-    width: 60px; 
+    height:70px;
+    width: 70px; 
    object-fit: cover;
     
     /* height: 100%; /*Match logo height to navbar */
@@ -104,8 +104,34 @@ body{
     display: block;
 }
 
+ /*footer*/
+.footer{
+    background-color: rgb(75, 75, 75);
+    margin: 0 -10px 0;
+    padding: 75px;
+    padding-top: 40px;
+    text-align: center;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-links a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: -9px;
+    font-size: 10px;
 
-        /*on all pages till here*/
+}
+/*on all pages till here*/
+
 
 
 
@@ -317,33 +343,7 @@ body{
 
 
             /*on all pages/*
-            /*footer*/
-.footer{
-    background-color: rgb(75, 75, 75);
-    margin: 0 -10px 0;
-    padding: 75px;
-    padding-top: 40px;
-    text-align: center;
-}
-.footer-links{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.footer-links a{
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-}
-.copyright{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: -9px;
-    font-size: 10px;
-
-}
-/*on all pages till here*/
+           
 
 
 
