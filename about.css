@@ -1,15 +1,14 @@
-                    /* General navbar styling for all pages */
+ /* General navbar styling for all pages */
                     p,li{
                         font-size: 20px;
                         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
                     }
                     body{
                         background-color: rgba(201, 201, 201, 0.721);
                         width: 100vw;
                         margin-top: 60px;
                         text-align: center;
-                        margin: 100px -9px -9px;
+                        margin: 50px -10px -10px;
                         font-size: large;
                         line-height: 30px;
                     }
@@ -22,31 +21,28 @@
                     }
                     h1{
                         text-decoration: none;
-                        font-size: 50px;
+                        font-size: 60px;
                     }
                     li{
                         list-style: none;
                     }
                     li::before{
-                        content: "👉🏻    ";
+                        content: ":point_right::skin-tone-2:    ";
                     }
                     .navbar {
                         display: flex;
                         align-items: center;
                         justify-content: flex-start;
-                        background-color: black; 
-                        color: white; 
-                        padding: 0 20px ; 
+                        background-color: black;
+                        color: white;
+                        padding: 0 20px ;
                         height: 60px;
                         margin: 0;
-                    
-                    
-                        position: fixed; 
-                        top: 0; 
-                        left: 0; 
-                        width: 100%; 
-                        z-index: 1000; 
-                    
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        z-index: 1000;
                         border-bottom: 2px solid rgb(43, 223, 255);
                     }
                     .logo{
@@ -63,75 +59,63 @@
                     .logo img {
                         border-radius: 50%;
                         height:70px;
-                        width: 70px; 
+                        width: 70px;
                         object-fit: cover;
-                        
                         /* height: 100%; /*Match logo height to navbar */
                         /*max-height: 100px;Ensure it doesn't exceed navbar height */
-                    
                     }
-                    
                     /* Links container */
                     .nav-links {
                         display: flex;
-                        gap: 70px; 
-                        align-items: center; 
+                        gap: 70px;
+                        align-items: center;
                     }
                     .nav-links li::before{
                         content: none;
                     }
-                    
-                    
                     .nav-links a {
-                        color: white; 
-                        text-decoration: none; 
-                        font-size: 16px; 
-                        transition: color 0.3s; 
+                        color: white;
+                        text-decoration: none;
+                        font-size: 16px;
+                        transition: color 0.3s;
                         font-family: sans-serif;
                     }
-                    
                     .nav-links a:hover {
-                        color: gray; 
+                        color: gray;
                     }
-                    
                     /* Dropdown menu styling */
                     .dropdown {
-                        position: relative; 
+                        position: relative;
                     }
-                    
                     .dropdown-menu {
                         display: none; /* Hidden by default */
                         position: absolute;
-                        background-color: black; 
+                        background-color: black;
                         list-style: none;
                         padding: 10px;
                         margin: 0;
-                        border: 1px solid white; 
+                        border: 1px solid white;
                         z-index: 1000;
                     }
-                    
                     .dropdown-menu li {
                         margin: 5px 0;
                     }
-                    
                     .dropdown-menu a {
-                        color: white; 
-                        text-decoration: none; 
+                        color: white;
+                        text-decoration: none;
                     }
-                    
                     .dropdown-menu a:hover {
-                        color: gray; 
+                        color: gray;
                     }
-                    
                     /* dropdown menu on hover */
                     .dropdown:hover .dropdown-menu {
                         display: block;
                     }
                     section:nth-child(even){
                         background-color: rgb(201, 201, 201);
-
                     }
                     section{
+                        margin: 0 -10px;
                         padding: 50px 150px;
                     }
                     .testi ul{
@@ -139,29 +123,27 @@
                         flex-wrap: wrap;
                         gap: 50px 50px;
                         justify-content: center;
-                        
                     }
                     .testi li{
                         list-style: none ;
                         width: 400px;
-                        background-color: rgb(194, 194, 194);
+                        background-color: rgb(38, 38, 38);
                         border-radius: 5%;
                         padding: 20px;
+                        color: white;
                     }
                     .testi li::before{
-                        content: "👇🏻";
+                        content: ":point_down::skin-tone-2:";
                     }
                     li h4{
                         font-size: 25px;
-                        color: rgb(33, 162, 185);
+                        color: rgb(39, 188, 214);
                     }
                     p a{
                         color: rgb(33, 162, 185);
                         text-decoration: none;
                         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                     }
-
-
                                /*on all pages/*
             /*footer*/
 .footer{
@@ -185,12 +167,16 @@
     background-color: black;
     color: white;
     text-align: center;
-    margin: -9px;
+    margin: -10px;
     font-size: 10px;
-
 }
 /*on all pages till here*/
-
+section:first-child{
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    padding: 50px 200px;
+}
 
                     
                     
