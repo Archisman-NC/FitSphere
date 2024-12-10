@@ -27,7 +27,7 @@
                         list-style: none;
                     }
                     li::before{
-                        content: ":point_right::skin-tone-2:    ";
+                        content: "👉🏻   ";
                     }
                     .navbar {
                         display: flex;
@@ -133,7 +133,7 @@
                         color: white;
                     }
                     .testi li::before{
-                        content: ":point_down::skin-tone-2:";
+                        content: "👇🏻";
                     }
                     li h4{
                         font-size: 25px;
