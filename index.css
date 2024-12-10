@@ -30,7 +30,7 @@ body{
 .logo{
     height: 70px;
     width: 70px;
-    border: 2px solid rgb(43, 223, 255);
+/*     border: 2px solid rgb(43, 223, 255); */
     border-radius: 50%;
     display: flex;
     justify-content: center;
