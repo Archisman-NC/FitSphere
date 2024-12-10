@@ -248,4 +248,11 @@
     background-color: rgb(192, 192, 192);
     padding: 25px 0 100px ;
 }
+.intro-section{
+      background-color: black;
+      color: white;
+      margin: 0 -10px;
+      padding: 150px 300px;
+      line-height: 2;
+}
               
