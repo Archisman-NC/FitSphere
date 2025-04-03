@@ -140,8 +140,8 @@ body{
 
 .hero {
     position: relative; 
-    width: auto; 
-    height: 100vh; 
+/*     width: auto; 
+    height: 100vh;  */
     overflow: hidden; 
     margin: 0 -10px;
 }
