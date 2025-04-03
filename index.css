@@ -148,8 +148,8 @@ body{
 
 /* Hero Image  */
 .hero img {
-    width: auto; 
-    height: 100vh; 
+    width: 100vw; 
+    height: auto; 
     object-fit: cover; 
 }
 
